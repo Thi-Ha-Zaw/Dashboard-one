@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;900&display=swap');
+
+
+$font-family-sans-serif : 'Nunito Sans', sans-serif;
+
+$primary : #727cf5;
+$secondary : #313a46;
+$success : #f0f3f8;
+$info : #0acf97;
+
+
+
+
+
+
+
+
+
+
+@import './node_modules/bootstrap/scss/bootstrap.scss';
+@import './node_modules/bootstrap-icons/font/bootstrap-icons.css';
+
+
+//navbar
+
+.language-icon{
+    height: 15px;
+}
+
+
+.custom-drop-menu{
+    width: 200px;
+    height: 300px;
+    overflow: scroll;
+}
+
+.custom-drop-menu-two{
+    width: 300px;
+    height: 200px;
+}
+
+.dropdown-menu-img{
+    height: 25px;
+    width: 25px;
+    text-align: center;
+
+}
+
+//sideBar
+
+#sideBar ul{
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.sidebar-item{
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover{
+        color: $white !important;
+        .sidebar-link{
+            color: $white !important;
+        }
+    }
+
+    .sidebar-link{
+        transition: 0.3s;
+    }
+}
+
+.accordion-body-item{
+    width: 100%;
+    cursor: pointer;
+    padding-left: 35px;
+    padding-top: 12px;
+    transition: 0.3s;
+    &:hover{
+        color: $white;
+    }
+    
+}
+
+.rotate{
+    transition: 0.5s;
+    transform: rotate(90deg) !important;
+}
+
+
